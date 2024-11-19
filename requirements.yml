@@ -1,0 +1,12 @@
+---
+
+roles:
+  - name: nginx_configuration
+    scm: git
+    src: git@github.com:webdrone-infra/asbl-nginx_configuration.git
+    version: main
+
+collections:
+  - name: community.general
+
+

@@ -1,0 +1,4 @@
+---
+
+nginx_config_rest_api_enable: false
+## see how to set at : https://github.com/nginxinc/ansible-role-nginx-config/blob/main/defaults/main/template.yml#L749

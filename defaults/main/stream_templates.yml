@@ -1,0 +1,9 @@
+---
+
+# Enable creating dynamic templated NGINX stream configuration files.
+# Defaults will not produce a valid configuration. Instead they are meant to showcase
+# the options available for templating. Each dictionary in the top level list/array represents a new configuration file.
+# Unless otherwise noted, all variables are *strings* and *optional* (*required* values inside a dictionary are only required if the top level variable is defined).
+# Most (not all) of these directives can also be used under the 'server' context, as briefly seen at the end of the below dictionary.
+nginx_config_stream_template_enable: false
+## see how to set 'nginx_config_stream_template' at https://github.com/nginxinc/ansible-role-nginx-config/blob/main/defaults/main/template.yml#L774

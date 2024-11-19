@@ -1,0 +1,9 @@
+---
+
+- name: Configure nginx playbook
+  hosts: all
+  roles:
+    - role: nginx_configuration
+      become: true
+      become_user: "{{ nginx_configuration_user }}"
+      tags: [nginx_configuration]
